@@ -4,6 +4,8 @@
 
 This project demonstrates how to implement AWS security governance and compliance using Terraform. AWS Config is used to continuously record and evaluate AWS resource configurations against predefined compliance rules.
 
+---
+
 ### Live Demo:
 
 ![bucket](./screenshots/bucket.png)
@@ -11,6 +13,8 @@ This project demonstrates how to implement AWS security governance and complianc
 The S3 bucket named **vpc-peering-terraform-state-01** meets all three security rules (public read blocked, public write blocked, and encryption enabled) but is flagged as non-compliant due to missing required tags.
 
 ![report](./screenshots/report.png)
+
+---
 
 ### Problem:
 
