@@ -1,5 +1,9 @@
 ## 🛡️ AWS Policy and Governance Setup Using Terraform
 
+### 📌 Project Overview:
+
+This project demonstrates how to implement AWS security governance and compliance using Terraform. AWS Config is used to continuously record and evaluate AWS resource configurations against predefined compliance rules.
+
 ### Live Demo:
 
 ![bucket](./screenshots/bucket.png)
@@ -13,10 +17,6 @@ The S3 bucket named **vpc-peering-terraform-state-01** meets all three security 
 In a growing AWS environment, managing security, compliance, and governance manually becomes risky and error-prone. Without automated controls, resources may be created without encryption, proper tagging, MFA enforcement, or public access restrictions—leading to security vulnerabilities and compliance failures. The challenge is to continuously monitor AWS resources, enforce security best practices, and clearly identify compliant and non-compliant resources in a scalable and repeatable way.
 
 ---
-
-### 🚀 Overview:
-
-This project demonstrates how to implement AWS security governance and compliance using Terraform. AWS Config is used to continuously record and evaluate AWS resource configurations against predefined compliance rules.
 
 ### 🔐 Key Features:
 
@@ -32,8 +32,20 @@ This project demonstrates how to implement AWS security governance and complianc
   - Encryption in transit for S3 operations
   - Mandatory tags during EC2 instance creation
 
+---
+
 ### 🎯 Learning Objectives:
 
 - Learn how AWS Config enables continuous compliance monitoring
 - Understand how to enforce security governance using managed rules
 - Gain hands-on experience with Terraform for security automation
+
+---
+
+### 👨‍💻 Connect with me:
+
+**Ibrar Munir**
+
+Github: https://github.com/ibrarmunircoder </br>
+LinkedIn: https://www.linkedin.com/in/ibrar-munir-53197a16b </br> 
+Portfolio: https://ibrarmunir.d3psh89dj43dt6.amplifyapp.com
